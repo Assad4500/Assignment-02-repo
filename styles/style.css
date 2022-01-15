@@ -1,0 +1,89 @@
+/* font-style */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@500&display=swap');
+/* font-style */
+
+
+/*--------------
+ Common Styles
+ --------------- */
+.top-heading{
+    margin-bottom: 100px;
+    margin-top: 0%;
+}
+
+ body{
+     font-family: 'Playfair Display', serif;
+     padding: 100px;
+ }
+
+ .First-Part{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     grid-column-gap: 120px;    
+ }
+
+
+ /* ---------------------
+ First-Part-styles
+ ------------------------ */
+ .First-Part{
+     margin-bottom: 50px;
+     justify-content: center;
+     align-items: center;
+ }
+.First-line{
+    font-size: 52px;
+    font-weight: 700;
+    width: 582px;
+    height: 133px;
+    justify-content: center;
+
+}
+.First-Paragraph{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(0, 59, 70, 0.877);
+    width: 505px;
+    height: 60.9;
+}
+.journey-influencer{
+    margin-bottom: 200px;
+}
+.journey-influencer a{
+    text-decoration:none;
+    font-weight: 700;
+    background-color: rgb(19, 204, 204);
+    width: 120px;
+    height: 30px;
+    padding: 8px;
+    border-radius: 15px;
+}
+.journey-influencer a:hover{
+    color: crimson;
+}
+.main-photo img{
+    width: 440px;
+    height: 414px;
+    border-radius: 10px;
+}
+hr{
+    border: 2px solid darkgrey;
+    margin: 80px,150px;   
+}
+hr:hover {
+    color: rgb(46, 236, 8);
+}
+
+/* -----------------
+logos-styles-part 
+--------------------*/
+.logos{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin-bottom: 30px 30px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 60px;
+   
+
+}
